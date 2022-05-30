@@ -23,7 +23,7 @@ const Deals = (props) => {
 	};
 
 	return (
-		<Box id="Deals" sx={{ bgcolor: 'Background.paper' }}>
+		<Box id="Deals" sx={{ bgcolor: 'background.paper', minWidth: '100%' }}>
 			<Container maxWidth="xl" sx={{ bgcolor: 'background.paper' }}>
 				<Typography variant="h1" mb={5} py={5} pl={3} sx={{ color: 'text.primary' }}>
 					Select a deal!
