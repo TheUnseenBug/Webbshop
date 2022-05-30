@@ -21,7 +21,6 @@ const DarkMode = (props) => {
 
 const mapStateToProps = (state) => {
 	const { theme } = state;
-	console.log({ theme });
 	return { theme };
 };
 

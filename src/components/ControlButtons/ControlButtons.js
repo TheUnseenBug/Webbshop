@@ -20,7 +20,7 @@ const ControlButtons = ({ onIncrement, onDecrement, quantity, product }) => {
 				height: '100%'
 			}}
 		>
-			<IconButton onClick={() => onIncrement(product)}>
+			<IconButton onClick={() => onIncrement(product)} sx={{ color: 'background.appBar' }}>
 				<AddIcon fontSize="large" sx={{ color: '#00c896' }} />
 			</IconButton>
 			<div

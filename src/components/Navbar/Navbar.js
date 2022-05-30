@@ -17,7 +17,7 @@ const Navbar = (props) => {
 
 	return (
 		<Box sx={{ flexGrow: 1 }}>
-			<AppBar position="static">
+			<AppBar position="static" sx={{ bgcolor: 'background.appBar' }}>
 				<Toolbar>
 					<Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
 						Techover
@@ -27,9 +27,6 @@ const Navbar = (props) => {
 					</Button>
 					<Button onClick={() => history.push('/deals')} color="inherit">
 						Deals
-					</Button>
-					<Button onClick={() => history.push('/about')} color="inherit">
-						About
 					</Button>
 
 					<DarkMode />

@@ -1,6 +1,5 @@
 import Products from '../components/screens/Products/Products';
 import Checkout from '../components/screens/Checkout/Checkout';
-import About from '../components/About/About';
 import Deals from '../components/Deals/Deals';
 
 const NoMatch = () => {
@@ -21,11 +20,6 @@ export const ROUTES = [
 		path: '/deals',
 		exact: true,
 		component: Deals
-	},
-	{
-		path: '/about',
-		exact: true,
-		component: About
 	},
 	{
 		path: '*',

@@ -1,6 +1,6 @@
 import { createTheme } from '@mui/material/styles';
 const white = '#ffffff';
-const neonDark = '#00c896';
+const neonDark = '#2F0599';
 const primary = { light: neonDark, main: neonDark, dark: neonDark, contrastText: white };
 
 const h1 = { fontFamily: 'Roboto, sans-serif', fontWeight: 400, fontSize: '24px', lineHeight: '30px' };
@@ -13,7 +13,8 @@ export const lightTheme = createTheme({
 		primary,
 		background: {
 			paper: '#f8fafd',
-			default: '#ffffff'
+			default: '#ffffff',
+			appBar: '#2F0599'
 		},
 
 		text: {
@@ -42,7 +43,8 @@ export const darkTheme = createTheme({
 		primary,
 		background: {
 			paper: '#1b1b1b',
-			default: 'rgba(255, 255, 255, 0.05)'
+			default: 'rgba(255, 255, 255, 0.05)',
+			appBar: '#2F0599'
 		},
 
 		text: {

@@ -1,4 +1,4 @@
-import { Container, Grid, List, Paper, Typography } from '@mui/material';
+import { Box, Container, Grid, List, Paper, Typography } from '@mui/material';
 import React, { useState, useEffect } from 'react';
 import Cart from '../Cart/Cart';
 
@@ -23,9 +23,9 @@ const Deals = (props) => {
 	};
 
 	return (
-		<div id="Deals">
-			<Container maxWidth="xl" sx={{ bgcolor: 'Background.paper' }}>
-				<Typography variant="h1" mb={5}>
+		<Box id="Deals" sx={{ bgcolor: 'Background.paper' }}>
+			<Container maxWidth="xl" sx={{ bgcolor: 'background.paper' }}>
+				<Typography variant="h1" mb={5} py={2}>
 					Select a deal!
 				</Typography>
 				<Grid container spacing={2}>
@@ -45,7 +45,7 @@ const Deals = (props) => {
 					</Grid>
 				</Grid>
 			</Container>
-		</div>
+		</Box>
 	);
 };
 
