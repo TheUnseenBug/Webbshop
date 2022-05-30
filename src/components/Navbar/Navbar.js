@@ -20,7 +20,7 @@ const Navbar = (props) => {
 			<AppBar position="static" sx={{ bgcolor: 'background.appBar' }}>
 				<Toolbar>
 					<Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-						Techover
+						Dennis Store
 					</Typography>
 					<Button onClick={() => history.push('/')} color="inherit">
 						Products

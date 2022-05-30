@@ -22,6 +22,16 @@ export const lightTheme = createTheme({
 			secondary: '#b3b3b3'
 		}
 	},
+	components: {
+		MuiMenuItem: {
+			styleOverrides: {
+				root: {
+					'&$selected': { color: 'red' }
+				},
+				selected: {}
+			}
+		}
+	},
 	typography: {
 		fontFamily: [
 			'Roboto',

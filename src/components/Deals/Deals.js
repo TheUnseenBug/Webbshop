@@ -25,7 +25,7 @@ const Deals = (props) => {
 	return (
 		<Box id="Deals" sx={{ bgcolor: 'Background.paper' }}>
 			<Container maxWidth="xl" sx={{ bgcolor: 'background.paper' }}>
-				<Typography variant="h1" mb={5} py={2}>
+				<Typography variant="h1" mb={5} py={5} pl={3} sx={{ color: 'text.primary' }}>
 					Select a deal!
 				</Typography>
 				<Grid container spacing={2}>
